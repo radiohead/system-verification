@@ -1,0 +1,192 @@
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 13:11:39 on Mar 23,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex2_dut
+# -- Compiling module ex2_clock_driver
+# -- Compiling interface ex2_interface
+# -- Compiling package ex2_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling module top
+# -- Importing package ex2_pkg
+# 
+# Top level modules:
+# 	top
+# End time: 13:11:41 on Mar 23,2015, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+vsim -do "run -all" top
+# vsim 
+# Start time: 13:11:45 on Mar 23,2015
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.ex2_pkg(fast)
+# Loading work.top(fast)
+# Loading work.ex2_dut(fast)
+# Loading work.ex2_clock_driver(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.ex2_interface(fast)
+# Loading /soft/Mentor/Questa_10.4/questasim/uvm-1.1d/linux/uvm_dpi.so
+# run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.2
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test ...
+# DUT @ 0 data = '{x, x, x, x, x, x, x, x}
+# DUT @ 10 data = '{x, x, x, x, x, x, x, x}
+# ex2_driver @ 10 transaction = " data[7] 	0
+#  data[6] 	1
+#  data[5] 	0
+#  data[4] 	1
+#  data[3] 	0
+#  data[2] 	0
+#  data[1] 	1
+#  data[0] 	1
+# "
+# DUT @ 30 data = '{0, 1, 0, 1, 0, 0, 1, 1}
+# ex2_driver @ 30 transaction = " data[7] 	0
+#  data[6] 	0
+#  data[5] 	1
+#  data[4] 	0
+#  data[3] 	0
+#  data[2] 	1
+#  data[1] 	0
+#  data[0] 	1
+# "
+# DUT @ 50 data = '{0, 0, 1, 0, 0, 1, 0, 1}
+# ex2_driver @ 50 transaction = " data[7] 	1
+#  data[6] 	0
+#  data[5] 	1
+#  data[4] 	0
+#  data[3] 	1
+#  data[2] 	0
+#  data[1] 	0
+#  data[0] 	1
+# "
+# DUT @ 70 data = '{1, 0, 1, 0, 1, 0, 0, 1}
+# ex2_driver @ 70 transaction = " data[7] 	1
+#  data[6] 	0
+#  data[5] 	0
+#  data[4] 	0
+#  data[3] 	1
+#  data[2] 	1
+#  data[1] 	1
+#  data[0] 	0
+# "
+# DUT @ 90 data = '{1, 0, 0, 0, 1, 1, 1, 0}
+# ex2_driver @ 90 transaction = " data[7] 	1
+#  data[6] 	1
+#  data[5] 	0
+#  data[4] 	1
+#  data[3] 	1
+#  data[2] 	1
+#  data[1] 	1
+#  data[0] 	1
+# "
+# DUT @ 110 data = '{1, 1, 0, 1, 1, 1, 1, 1}
+# ex2_driver @ 110 transaction = " data[7] 	0
+#  data[6] 	1
+#  data[5] 	0
+#  data[4] 	0
+#  data[3] 	1
+#  data[2] 	0
+#  data[1] 	0
+#  data[0] 	0
+# "
+# DUT @ 130 data = '{0, 1, 0, 0, 1, 0, 0, 0}
+# ex2_driver @ 130 transaction = " data[7] 	1
+#  data[6] 	0
+#  data[5] 	0
+#  data[4] 	1
+#  data[3] 	0
+#  data[2] 	1
+#  data[1] 	0
+#  data[0] 	1
+# "
+# DUT @ 150 data = '{1, 0, 0, 1, 0, 1, 0, 1}
+# ex2_driver @ 150 transaction = " data[7] 	0
+#  data[6] 	0
+#  data[5] 	1
+#  data[4] 	1
+#  data[3] 	0
+#  data[2] 	1
+#  data[1] 	1
+#  data[0] 	0
+# "
+# DUT @ 170 data = '{0, 0, 1, 1, 0, 1, 1, 0}
+# ex2_driver @ 170 transaction = " data[7] 	0
+#  data[6] 	1
+#  data[5] 	1
+#  data[4] 	1
+#  data[3] 	1
+#  data[2] 	1
+#  data[1] 	0
+#  data[0] 	0
+# "
+# DUT @ 190 data = '{0, 1, 1, 1, 1, 1, 0, 0}
+# ex2_driver @ 190 transaction = " data[7] 	0
+#  data[6] 	0
+#  data[5] 	0
+#  data[4] 	0
+#  data[3] 	1
+#  data[2] 	1
+#  data[1] 	1
+#  data[0] 	0
+# "
+# UVM_INFO @ 190: reporter [UVMTOP] UVM testbench topology:
+# ----------------------------------------------------------
+# Name                   Type                    Size  Value
+# ----------------------------------------------------------
+# environment            ex2_env                 -     @458 
+#   _driver              ex2_driver              -     @470 
+#     rsp_port           uvm_analysis_port       -     @487 
+#     seq_item_port      uvm_seq_item_pull_port  -     @478 
+#   _sequencer           uvm_sequencer           -     @496 
+#     rsp_export         uvm_analysis_export     -     @504 
+#     seq_item_export    uvm_seq_item_pull_imp   -     @610 
+#     arbitration_queue  array                   0     -    
+#     lock_queue         array                   0     -    
+#     num_last_reqs      integral                32    'd1  
+#     num_last_rsps      integral                32    'd1  
+# ----------------------------------------------------------
+# 
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 190: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    5
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [UVMTOP]     1
+# ** Note: $finish    : /soft/Mentor/Questa_10.4/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 190 ns  Iteration: 65  Instance: /top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at /soft/Mentor/Questa_10.4/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+quit -sim
+transcript file ""
