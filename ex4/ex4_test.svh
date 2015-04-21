@@ -5,8 +5,8 @@ class ex4_test extends uvm_test;
   ex4_env m_env;
   // configuration database
   ex4_config m_config;
-
   ex4_sequence _sequence;
+  ex4_agent_config _agent_config;
 
   function new(string name = "ex4_test", uvm_component parent = null);
     super.new(name, parent);
@@ -14,13 +14,19 @@ class ex4_test extends uvm_test;
 
   function void set_config_params();
     m_config = ex4_config::type_id::create("m_config");
+    _agent_config = ex4_agent_config::type_id::create("agent_config");
 
     if(!uvm_config_db #(virtual ex4_interface)::get(this, "uvm_test_top", "top_interface", m_config.vif))
       `uvm_fatal("EX4 TEST", "Can't read VIF");
 
+    if(!uvm_config_db #(virtual ex4_interface)::get(this, "uvm_test_top", "top_interface", _agent_config.vif))
+      `uvm_fatal("EX4 TEST", "Can't read VIF");
+
     m_config.iterations = 10;
+    _agent_config.active = UVM_ACTIVE;
 
     uvm_config_db #(ex4_config)::set(this, "*", "ex4_config", m_config);
+    uvm_config_db #(ex4_agent_config)::set(this, "*", "ex4_agent_config", _agent_config);
   endfunction;
 
   function void build_phase(uvm_phase phase);
