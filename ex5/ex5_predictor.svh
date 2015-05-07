@@ -1,10 +1,10 @@
 class ex5_predictor extends uvm_subscriber #(ex5_transaction);
   `uvm_component_utils(ex5_predictor)
 
-  ex5_transaction ci;
+  ex5_transaction out_txn;
 
   covergroup transaction_coverage;
-    coverpoint ci {
+    coverpoint out_txn.data {
       bins low = {0,50};
       bins med = {51,150};
       bins high = {151,255};
@@ -24,8 +24,9 @@ class ex5_predictor extends uvm_subscriber #(ex5_transaction);
   endfunction
 
   function void write (ex5_transaction t);
-    ex5_transaction out_txn;
+    // ex5_transaction out_txn;
     $cast(out_txn, t.clone());
+    // our DUT for now should return in result the data that it got in input
     foreach(data[i]) begin
       out_txn.result[i] = t.data[i];
     end
