@@ -15,4 +15,7 @@ package ex5_pkg;
   `include "ex5_analysis.svh"
   `include "ex5_env.svh"
   `include "ex5_test.svh"
+  `include "ex5_predictor.svh"
+  `include "ex5_comparator.svh"
+  `include "ex5_scoreboard.svh"
 endpackage: ex5_pkg
