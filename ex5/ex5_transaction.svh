@@ -1,7 +1,7 @@
 class ex5_transaction extends uvm_sequence_item;
   //declarations
-  //rand logic data[7:0];
   rand logic data[7:0];
+  logic result[7:0];
 
   //declaration macros
   `uvm_object_utils_begin(ex5_transaction)
@@ -21,9 +21,14 @@ class ex5_transaction extends uvm_sequence_item;
    s = super.convert2string();
    // For an array we need to iterate through the values:
    foreach(data[i]) begin
-     $sformat(s, "%s data[%0d] \t%0h\n", s, i, data[i]);
+     $sformat(s, "%s data[%0d] \t%0h result[%0d] \t%0h\n", s, i, data[i], i, result[i]);
    end
    return s;
   endfunction: convert2string
+
+  function uvm_object clone();
+    ex5_transaction tmp = new this;
+    return(tmp);
+  endfunction
 
 endclass: ex5_transaction
