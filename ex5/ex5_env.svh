@@ -13,9 +13,6 @@ class ex5_env extends uvm_env;
 
   function void build_phase(uvm_phase phase);
     super.build_phase(phase);
-    // _driver = ex5_driver::type_id::create("_driver", this);
-    // _sequencer = ex5_sequencer::type_id::create("_sequencer", this);
-
     _agent = ex5_agent::type_id::create("ex5_agent", this);
     _analysis = ex5_analysis::type_id::create("ex5_analysis", this);
     _sb = ex5_scoreboard::type_id::create("sb", this);

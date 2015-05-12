@@ -31,9 +31,9 @@ class ex5_analysis extends uvm_component;
 
     forever begin
       _fifo_in.get(item);
-      $display("ex5_analysis: %p", $time, item.convert2string());
+
       _fifo_out.get(item);
-      $display("ex5_analysis: %p", $time, item.convert2string());
+
     end
   endtask
 endclass: ex5_analysis

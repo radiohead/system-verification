@@ -28,7 +28,6 @@ class ex5_predictor extends uvm_subscriber #(ex5_transaction);
   endfunction
 
   function void write (ex5_transaction t);
-    $display("ex5_predictor: %p", t.convert2string());
     $cast(out_txn, t.clone());
 
     // our DUT for now should return in result the data that it got in input
@@ -36,7 +35,6 @@ class ex5_predictor extends uvm_subscriber #(ex5_transaction);
       out_txn.result[i] = t.data[i];
       transaction_coverage.sample();
     end
-
     results_ap.write(out_txn);
   endfunction
 

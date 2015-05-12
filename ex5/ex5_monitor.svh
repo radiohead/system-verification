@@ -28,10 +28,9 @@ class ex5_monitor extends uvm_monitor;
     ex5_transaction item;
     item = ex5_transaction::type_id::create("item");
 
-    forever @(posedge m_vif.clock) begin
+    forever begin @(posedge m_vif.clock)
        item.data = m_vif.data;
        item.result = m_vif.result;
-       $display("ex5_monitor: %p", $time, item.convert2string());
        ap.write(item);
     end
   endtask: run_phase

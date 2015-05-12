@@ -32,11 +32,6 @@ class ex5_transaction extends uvm_sequence_item;
     return s;
   endfunction
 
-//  function uvm_object clone();
-//    ex5_transaction tmp = new this;
-//    return(tmp);
-//  endfunction
-
   function bit do_compare(uvm_object rhs, uvm_comparer comparer);
     ex5_transaction tmp;
     $cast(tmp, rhs); // cast so can access the fields

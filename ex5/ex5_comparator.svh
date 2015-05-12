@@ -28,25 +28,24 @@ class ex5_comparator extends uvm_component;
 
   task run_phase(uvm_phase phase);
     ex5_transaction exp_tr, out_tr;
+    // skip first uninitialized
+    outfifo.get(out_tr);
     forever begin
       `uvm_info("ex5_comparator run task", 
                 "WAITING for expected output", UVM_DEBUG)
       expfifo.get(exp_tr);
+
       `uvm_info("ex5_comparator run task",
                 "WAITING for actual output", UVM_DEBUG)
       outfifo.get(out_tr);
 
       if (out_tr.compare(exp_tr)) begin
         PASS();
-        `uvm_info ("PASS ", $sformatf("Actual=%s    Expected=%s \n",
-                    out_tr.output2string(),
-                    exp_tr.convert2string()), UVM_HIGH)
+        `uvm_info ("PASS ", $sformatf("Actual=%s    Expected=%s \n", out_tr.output2string(), exp_tr.output2string()), UVM_LOW)
       end
       else begin
         ERROR();
-        `uvm_info ("ERROR ", $sformatf("Actual=%s    Expected=%s \n",
-                    out_tr.output2string(),
-                    exp_tr.convert2string()), UVM_HIGH)
+        `uvm_info ("ERROR ", $sformatf("Actual=%s    Expected=%s \n", out_tr.output2string(), exp_tr.output2string()), UVM_LOW)
       end
     end
   endtask

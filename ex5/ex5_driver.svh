@@ -34,8 +34,7 @@ class ex5_driver extends uvm_driver #(ex5_transaction);
       if (!_interface.reset) begin
         seq_item_port.get_next_item(req_item);
         // Send next sequence item
-        $display("ex5_driver: %p", $time, req_item.convert2string());
-        _interface.data <= req_item.data;
+        _interface.data = req_item.data;
         ap.write(req_item);
         seq_item_port.item_done();
       end
