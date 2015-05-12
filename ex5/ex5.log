@@ -1,0 +1,2067 @@
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 14:47:21 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Error: ** while parsing file included at ex5_pkg.sv(18)
+# ** at ex5_predictor.svh(30): (vlog-2730) Undefined variable: 'data'.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(41): (vlog-2163) Macro `uvm_onfo is undefined.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(41): near "(": syntax error, unexpected '('.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(47): (vlog-2163) Macro `uvm_onfo is undefined.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(59): (vlog-2730) Undefined variable: 'VECT_CNT'.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(59): (vlog-2730) Undefined variable: 'ERROR_CNT'.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(69): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(73): (vlog-2730) Undefined variable: 'PASS_CNT'.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(74): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(79): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: ** while parsing file included at ex5_pkg.sv(20)
+# ** while parsing macro expansion: 'uvm_component_utils' starting at ex5_scoreboard.svh(2)
+# ** at ex5_scoreboard.svh(2): (vlog-2730) Undefined variable: 'ex5_scoreboard'.
+# ** Error: ** while parsing file included at ex5_pkg.sv(20)
+# ** while parsing macro expansion: 'uvm_component_utils' starting at ex5_scoreboard.svh(2)
+# ** at ex5_scoreboard.svh(2): (vlog-2953) Incorrect usage of keyword 'static'.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(20)
+# ** while parsing macro expansion: 'uvm_component_utils' starting at ex5_scoreboard.svh(2)
+# ** at ex5_scoreboard.svh(2): near "function": syntax error, unexpected function, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(20)
+# ** while parsing macro expansion: 'uvm_component_utils' starting at ex5_scoreboard.svh(2)
+# ** at ex5_scoreboard.svh(2): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(20)
+# ** while parsing macro expansion: 'uvm_component_utils' starting at ex5_scoreboard.svh(2)
+# ** at ex5_scoreboard.svh(2): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: ** while parsing file included at ex5_pkg.sv(20)
+# ** at ex5_scoreboard.svh(9): Illegal declaration after the statement near line '4'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ex5_pkg.sv(20)
+# ** at ex5_scoreboard.svh(18): 'super.new()' call can only be made from within a class constructor.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(20)
+# ** at ex5_scoreboard.svh(19): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(20)
+# ** at ex5_scoreboard.svh(27): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(20)
+# ** at ex5_scoreboard.svh(35): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: ex5_top.svh(5): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ex5_top.svh(6): Checker 'ex5_dut' not found.  Instantiation 'dut' must be of a visible checker.
+# ** Error: ex5_top.svh(7): Checker 'ex5_clock_driver' not found.  Instantiation 'clk' must be of a visible checker.
+# ** Error: (vlog-13069) ex5_top.svh(8): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ex5_top.svh(14): near "endmodule": syntax error, unexpected endmodule.
+# End time: 14:47:23 on May 08,2015, Elapsed time: 0:00:02
+# Errors: 25, Warnings: 0
+# /soft/Mentor/Questa_10.4/questasim/linux/vlog failed.
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 14:48:09 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(41): (vlog-2163) Macro `uvm_onfo is undefined.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(41): near "(": syntax error, unexpected '('.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(47): (vlog-2163) Macro `uvm_onfo is undefined.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(59): (vlog-2730) Undefined variable: 'VECT_CNT'.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(59): (vlog-2730) Undefined variable: 'ERROR_CNT'.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(69): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(73): (vlog-2730) Undefined variable: 'PASS_CNT'.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(74): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(79): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: ** while parsing file included at ex5_pkg.sv(20)
+# ** while parsing macro expansion: 'uvm_component_utils' starting at ex5_scoreboard.svh(2)
+# ** at ex5_scoreboard.svh(2): (vlog-2730) Undefined variable: 'ex5_scoreboard'.
+# ** Error: ** while parsing file included at ex5_pkg.sv(20)
+# ** while parsing macro expansion: 'uvm_component_utils' starting at ex5_scoreboard.svh(2)
+# ** at ex5_scoreboard.svh(2): (vlog-2953) Incorrect usage of keyword 'static'.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(20)
+# ** while parsing macro expansion: 'uvm_component_utils' starting at ex5_scoreboard.svh(2)
+# ** at ex5_scoreboard.svh(2): near "function": syntax error, unexpected function, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(20)
+# ** while parsing macro expansion: 'uvm_component_utils' starting at ex5_scoreboard.svh(2)
+# ** at ex5_scoreboard.svh(2): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(20)
+# ** while parsing macro expansion: 'uvm_component_utils' starting at ex5_scoreboard.svh(2)
+# ** at ex5_scoreboard.svh(2): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: ** while parsing file included at ex5_pkg.sv(20)
+# ** at ex5_scoreboard.svh(9): Illegal declaration after the statement near line '4'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ex5_pkg.sv(20)
+# ** at ex5_scoreboard.svh(18): 'super.new()' call can only be made from within a class constructor.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(20)
+# ** at ex5_scoreboard.svh(19): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(20)
+# ** at ex5_scoreboard.svh(27): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(20)
+# ** at ex5_scoreboard.svh(35): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: ex5_top.svh(5): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ex5_top.svh(6): Checker 'ex5_dut' not found.  Instantiation 'dut' must be of a visible checker.
+# ** Error: ex5_top.svh(7): Checker 'ex5_clock_driver' not found.  Instantiation 'clk' must be of a visible checker.
+# ** Error: (vlog-13069) ex5_top.svh(8): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ex5_top.svh(14): near "endmodule": syntax error, unexpected endmodule.
+# End time: 14:48:10 on May 08,2015, Elapsed time: 0:00:01
+# Errors: 24, Warnings: 0
+# /soft/Mentor/Questa_10.4/questasim/linux/vlog failed.
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 14:48:42 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(49): (vlog-2266) Expansion of macro 'uvm_info' failed: The number of actual arguments (2) are not equal to the number of formal arguments (3).
+# ** Error: ** while parsing file included at ex5_pkg.sv(20)
+# ** at ex5_scoreboard.svh(10): (vlog-2730) Undefined variable: 'ci'.
+# ** Warning: ** while parsing file included at ex5_pkg.sv(20)
+# ** at ex5_scoreboard.svh(10): (vlog-2175) An object or type with name 'ci' already exists in Covergroup scope. Anonymous Coverpoint with generated name '#coverpoint__0#' will be created.
+# -- Compiling module top
+# ** Error: ex5_top.svh(3): (vlog-13006) Could not find the package (ex5_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+# End time: 14:48:43 on May 08,2015, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 1
+# /soft/Mentor/Questa_10.4/questasim/linux/vlog failed.
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 14:49:21 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Error: ** while parsing file included at ex5_pkg.sv(20)
+# ** at ex5_scoreboard.svh(10): (vlog-2730) Undefined variable: 'ci'.
+# ** Warning: ** while parsing file included at ex5_pkg.sv(20)
+# ** at ex5_scoreboard.svh(10): (vlog-2175) An object or type with name 'ci' already exists in Covergroup scope. Anonymous Coverpoint with generated name '#coverpoint__0#' will be created.
+# -- Compiling module top
+# ** Error: ex5_top.svh(3): (vlog-13006) Could not find the package (ex5_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+# End time: 14:49:22 on May 08,2015, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 1
+# /soft/Mentor/Questa_10.4/questasim/linux/vlog failed.
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 14:50:10 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Error: ex5_comparator.svh(22): Virtual method 'connect_phase' has more arguments than the method in class 'uvm_component' or a return type mismatch
+# ** Error: ex5_predictor.svh(7): (vlog-2146) Illegal unpacked type expression for coverpoint expression of Coverpoint '#coverpoint__0#'.
+# -- Compiling module top
+# ** Error: ex5_top.svh(3): (vlog-13006) Could not find the package (ex5_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+# End time: 14:50:11 on May 08,2015, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# /soft/Mentor/Questa_10.4/questasim/linux/vlog failed.
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 14:51:42 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Error: ex5_predictor.svh(7): (vlog-2146) Illegal unpacked type expression for coverpoint expression of Coverpoint '#coverpoint__0#'.
+# -- Compiling module top
+# ** Error: ex5_top.svh(3): (vlog-13006) Could not find the package (ex5_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+# End time: 14:51:43 on May 08,2015, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# /soft/Mentor/Questa_10.4/questasim/linux/vlog failed.
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 14:55:29 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling module top
+# -- Importing package ex5_pkg
+# 
+# Top level modules:
+# 	top
+# End time: 14:55:30 on May 08,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 14:56:08 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(18)
+# ** at ex5_predictor.svh(8): near "[": syntax error, unexpected '['.
+# -- Compiling module top
+# ** Error: ** while parsing file included at ex5_pkg.sv(18)
+# ** at ex5_top.svh(8): Identifier 'ex5_env' is not directly visible. 
+#    Found multiple Declaration of 'ex5_env' through wildcard imports from these packages : ex5_pkg, ex5_pkg
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(18)
+# ** at ex5_predictor.svh(8): near "{": syntax error, unexpected '{', expecting class.
+# End time: 14:56:09 on May 08,2015, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# /soft/Mentor/Questa_10.4/questasim/linux/vlog failed.
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 14:56:23 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Error: ex5_predictor.svh(7): (vlog-2146) Illegal unpacked type expression for coverpoint expression of Coverpoint '#coverpoint__0#'.
+# ** Error (suppressible): ex5_predictor.svh(8): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# -- Compiling module top
+# -- Importing package ex5_pkg
+# End time: 14:56:24 on May 08,2015, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# /soft/Mentor/Questa_10.4/questasim/linux/vlog failed.
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 15:01:42 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(18)
+# ** at ex5_predictor.svh(8): near ":": syntax error, unexpected ':'.
+# -- Compiling module top
+# ** Error: ** while parsing file included at ex5_pkg.sv(18)
+# ** at ex5_top.svh(8): Identifier 'ex5_env' is not directly visible. 
+#    Found multiple Declaration of 'ex5_env' through wildcard imports from these packages : ex5_pkg, ex5_pkg
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(18)
+# ** at ex5_predictor.svh(8): near "0": syntax error, unexpected INTEGER NUMBER, expecting class.
+# End time: 15:01:43 on May 08,2015, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# /soft/Mentor/Questa_10.4/questasim/linux/vlog failed.
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 15:01:57 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Error: ex5_predictor.svh(7): (vlog-2146) Illegal unpacked type expression for coverpoint expression of Coverpoint '#coverpoint__0#'.
+# -- Compiling module top
+# -- Importing package ex5_pkg
+# End time: 15:01:58 on May 08,2015, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# /soft/Mentor/Questa_10.4/questasim/linux/vlog failed.
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 15:03:47 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Error: ex5_predictor.svh(7): (vlog-2146) Illegal unpacked type expression for coverpoint expression of Coverpoint '#coverpoint__0#'.
+# -- Compiling module top
+# -- Importing package ex5_pkg
+# End time: 15:03:48 on May 08,2015, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# /soft/Mentor/Questa_10.4/questasim/linux/vlog failed.
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 15:04:44 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling module top
+# -- Importing package ex5_pkg
+# 
+# Top level modules:
+# 	top
+# End time: 15:04:45 on May 08,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 15:05:31 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling module top
+# -- Importing package ex5_pkg
+# 
+# Top level modules:
+# 	top
+# End time: 15:05:32 on May 08,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -do "run -all" top
+# vsim 
+# Start time: 15:05:45 on May 08,2015
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.ex5_pkg(fast)
+# ** Error (suppressible): (vsim-PLI-3029) ex5_transaction.svh(31): Expected a system function, not system task '$sformat'.
+#    Time: 0 ns  Iteration: 0  Region: /ex5_pkg::ex5_transaction::output2string File: ex5_pkg.sv
+# Loading work.top(fast)
+# Error loading design
+.main clear
+vdel -all -lib work
+vlib work
+transcript file ex5.log
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 15:07:20 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling module top
+# -- Importing package ex5_pkg
+# 
+# Top level modules:
+# 	top
+# End time: 15:07:21 on May 08,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim +UVM_TESTNAME=ex5_test -do "run -all" top
+# vsim 
+# Start time: 15:10:17 on May 08,2015
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.ex5_pkg(fast)
+# Loading work.top(fast)
+# Loading work.ex5_dut(fast)
+# Loading work.ex5_clock_driver(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.ex5_interface(fast)
+# Loading /soft/Mentor/Questa_10.4/questasim/uvm-1.1d/linux/uvm_dpi.so
+# ** Error (suppressible): (vsim-8323) ex5_transaction.svh(31): $sformatf : Argument number 2 is an unpacked type, and may only be printed with the '%p' format.
+#    Time: 0 ns  Iteration: 0  Region: /ex5_pkg::ex5_transaction::output2string File: ex5_pkg.sv
+# Error loading design
+.main clear
+vdel -all -lib work
+vlib work
+transcript file ex5.log
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 15:11:12 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling module top
+# -- Importing package ex5_pkg
+# 
+# Top level modules:
+# 	top
+# End time: 15:11:14 on May 08,2015, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+vsim +UVM_TESTNAME=ex5_test -do "run -all" top
+# vsim 
+# Start time: 15:11:17 on May 08,2015
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.ex5_pkg(fast)
+# Loading work.top(fast)
+# Loading work.ex5_dut(fast)
+# Loading work.ex5_clock_driver(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.ex5_interface(fast)
+# Loading /soft/Mentor/Questa_10.4/questasim/uvm-1.1d/linux/uvm_dpi.so
+# run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.2
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test ex5_test...
+# UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+# ------------------------------------------------------------------
+# Name                       Type                        Size  Value
+# ------------------------------------------------------------------
+# uvm_test_top               ex5_test                    -     @464 
+#   m_env                    ex5_env                     -     @484 
+#     _driver                ex5_driver                  -     @492 
+#       rsp_port             uvm_analysis_port           -     @509 
+#       seq_item_port        uvm_seq_item_pull_port      -     @500 
+#     _sequencer             uvm_sequencer               -     @518 
+#       rsp_export           uvm_analysis_export         -     @526 
+#       seq_item_export      uvm_seq_item_pull_imp       -     @632 
+#       arbitration_queue    array                       0     -    
+#       lock_queue           array                       0     -    
+#       num_last_reqs        integral                    32    'd1  
+#       num_last_rsps        integral                    32    'd1  
+#     ex5_agent              ex5_agent                   -     @641 
+#       m_driver             ex5_driver                  -     @672 
+#         rsp_port           uvm_analysis_port           -     @689 
+#         seq_item_port      uvm_seq_item_pull_port      -     @680 
+#       m_monitor            ex5_monitor                 -     @664 
+#         ap                 uvm_analysis_port           -     @822 
+#       m_sequencer          uvm_sequencer               -     @698 
+#         rsp_export         uvm_analysis_export         -     @706 
+#         seq_item_export    uvm_seq_item_pull_imp       -     @812 
+#         arbitration_queue  array                       0     -    
+#         lock_queue         array                       0     -    
+#         num_last_reqs      integral                    32    'd1  
+#         num_last_rsps      integral                    32    'd1  
+#     ex5_analysis           ex5_analysis                -     @649 
+#       _export              uvm_analysis_export         -     @837 
+#       fifo                 uvm_tlm_analysis_fifo #(T)  -     @846 
+#         analysis_export    uvm_analysis_imp            -     @890 
+#         get_ap             uvm_analysis_port           -     @881 
+#         get_peek_export    uvm_get_peek_imp            -     @863 
+#         put_ap             uvm_analysis_port           -     @872 
+#         put_export         uvm_put_imp                 -     @854 
+# ------------------------------------------------------------------
+# 
+# DUT @ 0 data = '{x, x, x, x, x, x, x, x}
+# DUT @ 10 data = '{x, x, x, x, x, x, x, x}
+# ex5_analysis @ 10 transaction = " data[7] 	x result[7] 	x
+#  data[6] 	x result[6] 	x
+#  data[5] 	x result[5] 	x
+#  data[4] 	x result[4] 	x
+#  data[3] 	x result[3] 	x
+#  data[2] 	x result[2] 	x
+#  data[1] 	x result[1] 	x
+#  data[0] 	x result[0] 	x
+# "
+# ex5_driver @ 10 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 30 data = '{1, 0, 0, 1, 0, 0, 0, 1}
+# ex5_analysis @ 30 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 30 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 50 data = '{0, 1, 1, 1, 1, 0, 0, 1}
+# ex5_analysis @ 50 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 50 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 70 data = '{1, 0, 1, 1, 1, 1, 0, 1}
+# ex5_analysis @ 70 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 70 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 90 data = '{0, 0, 1, 1, 1, 1, 0, 1}
+# ex5_analysis @ 90 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 90 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# DUT @ 110 data = '{0, 0, 1, 0, 1, 1, 0, 0}
+# ex5_analysis @ 110 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# ex5_driver @ 110 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# DUT @ 130 data = '{0, 0, 1, 0, 0, 0, 1, 0}
+# ex5_analysis @ 130 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# ex5_driver @ 130 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 150 data = '{0, 0, 0, 0, 0, 0, 0, 1}
+# ex5_analysis @ 150 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 150 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 170 data = '{1, 0, 0, 0, 1, 1, 1, 1}
+# ex5_analysis @ 170 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 170 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# DUT @ 190 data = '{1, 1, 1, 1, 0, 0, 0, 0}
+# ex5_analysis @ 190 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# ex5_driver @ 190 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 190: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    5
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [UVMTOP]     1
+# ** Note: $finish    : /soft/Mentor/Questa_10.4/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 190 ns  Iteration: 67  Instance: /top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at /soft/Mentor/Questa_10.4/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+quit -sim
+vsim +UVM_TESTNAME=ex5_test -do "run -all" top
+# vsim 
+# Start time: 15:14:00 on May 08,2015
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.ex5_pkg(fast)
+# Loading work.top(fast)
+# Loading work.ex5_dut(fast)
+# Loading work.ex5_clock_driver(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.ex5_interface(fast)
+# Loading /soft/Mentor/Questa_10.4/questasim/uvm-1.1d/linux/uvm_dpi.so
+# run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.2
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test ex5_test...
+# UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+# ------------------------------------------------------------------
+# Name                       Type                        Size  Value
+# ------------------------------------------------------------------
+# uvm_test_top               ex5_test                    -     @464 
+#   m_env                    ex5_env                     -     @484 
+#     _driver                ex5_driver                  -     @492 
+#       rsp_port             uvm_analysis_port           -     @509 
+#       seq_item_port        uvm_seq_item_pull_port      -     @500 
+#     _sequencer             uvm_sequencer               -     @518 
+#       rsp_export           uvm_analysis_export         -     @526 
+#       seq_item_export      uvm_seq_item_pull_imp       -     @632 
+#       arbitration_queue    array                       0     -    
+#       lock_queue           array                       0     -    
+#       num_last_reqs        integral                    32    'd1  
+#       num_last_rsps        integral                    32    'd1  
+#     ex5_agent              ex5_agent                   -     @641 
+#       m_driver             ex5_driver                  -     @672 
+#         rsp_port           uvm_analysis_port           -     @689 
+#         seq_item_port      uvm_seq_item_pull_port      -     @680 
+#       m_monitor            ex5_monitor                 -     @664 
+#         ap                 uvm_analysis_port           -     @822 
+#       m_sequencer          uvm_sequencer               -     @698 
+#         rsp_export         uvm_analysis_export         -     @706 
+#         seq_item_export    uvm_seq_item_pull_imp       -     @812 
+#         arbitration_queue  array                       0     -    
+#         lock_queue         array                       0     -    
+#         num_last_reqs      integral                    32    'd1  
+#         num_last_rsps      integral                    32    'd1  
+#     ex5_analysis           ex5_analysis                -     @649 
+#       _export              uvm_analysis_export         -     @837 
+#       fifo                 uvm_tlm_analysis_fifo #(T)  -     @846 
+#         analysis_export    uvm_analysis_imp            -     @890 
+#         get_ap             uvm_analysis_port           -     @881 
+#         get_peek_export    uvm_get_peek_imp            -     @863 
+#         put_ap             uvm_analysis_port           -     @872 
+#         put_export         uvm_put_imp                 -     @854 
+# ------------------------------------------------------------------
+# 
+# DUT @ 0 data = '{x, x, x, x, x, x, x, x}
+# DUT @ 10 data = '{x, x, x, x, x, x, x, x}
+# ex5_analysis @ 10 transaction = " data[7] 	x result[7] 	x
+#  data[6] 	x result[6] 	x
+#  data[5] 	x result[5] 	x
+#  data[4] 	x result[4] 	x
+#  data[3] 	x result[3] 	x
+#  data[2] 	x result[2] 	x
+#  data[1] 	x result[1] 	x
+#  data[0] 	x result[0] 	x
+# "
+# ex5_driver @ 10 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 30 data = '{1, 0, 0, 1, 0, 0, 0, 1}
+# ex5_analysis @ 30 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 30 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 50 data = '{0, 1, 1, 1, 1, 0, 0, 1}
+# ex5_analysis @ 50 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 50 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 70 data = '{1, 0, 1, 1, 1, 1, 0, 1}
+# ex5_analysis @ 70 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 70 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 90 data = '{0, 0, 1, 1, 1, 1, 0, 1}
+# ex5_analysis @ 90 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 90 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# DUT @ 110 data = '{0, 0, 1, 0, 1, 1, 0, 0}
+# ex5_analysis @ 110 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# ex5_driver @ 110 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# DUT @ 130 data = '{0, 0, 1, 0, 0, 0, 1, 0}
+# ex5_analysis @ 130 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# ex5_driver @ 130 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 150 data = '{0, 0, 0, 0, 0, 0, 0, 1}
+# ex5_analysis @ 150 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 150 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 170 data = '{1, 0, 0, 0, 1, 1, 1, 1}
+# ex5_analysis @ 170 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 170 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# DUT @ 190 data = '{1, 1, 1, 1, 0, 0, 0, 0}
+# ex5_analysis @ 190 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# ex5_driver @ 190 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 190: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    5
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [UVMTOP]     1
+# ** Note: $finish    : /soft/Mentor/Questa_10.4/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 190 ns  Iteration: 67  Instance: /top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at /soft/Mentor/Questa_10.4/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+coverage
+# wrong # args: should be "coverage subcommand ?argument ...?"
+quit -sim
+.main clear
+vdel -all -lib work
+# Error 133: Unable to remove directory "/home/igosul/system-verification/ex5/work".
+vlib work
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+transcript file ex5.log
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 15:18:37 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(18)
+# ** at ex5_predictor.svh(70): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: ** while parsing file included at ex5_pkg.sv(18)
+# ** at ex5_predictor.svh(77): Illegal declaration after the statement near line '72'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(18)
+# ** at ex5_predictor.svh(79): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** while parsing macro expansion: 'uvm_component_utils' starting at ex5_comparator.svh(2)
+# ** at ex5_comparator.svh(2): (vlog-2730) Undefined variable: 'ex5_comparator'.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** while parsing macro expansion: 'uvm_component_utils' starting at ex5_comparator.svh(2)
+# ** at ex5_comparator.svh(2): (vlog-2953) Incorrect usage of keyword 'static'.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(19)
+# ** while parsing macro expansion: 'uvm_component_utils' starting at ex5_comparator.svh(2)
+# ** at ex5_comparator.svh(2): near "function": syntax error, unexpected function, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(19)
+# ** while parsing macro expansion: 'uvm_component_utils' starting at ex5_comparator.svh(2)
+# ** at ex5_comparator.svh(2): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(19)
+# ** while parsing macro expansion: 'uvm_component_utils' starting at ex5_comparator.svh(2)
+# ** at ex5_comparator.svh(2): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(9): Illegal declaration after the statement near line '4'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(10): 'super.new()' call can only be made from within a class constructor.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(11): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(16): (vlog-2730) Undefined variable: 'axp_in'.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(20): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(27): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(31): Illegal declaration after the statement near line '29'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(51): near "end": syntax error, unexpected end.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(59): (vlog-2730) Undefined variable: 'VECT_CNT'.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(59): (vlog-2730) Undefined variable: 'ERROR_CNT'.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(72): (vlog-2730) Undefined variable: 'VECT_CNT'.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(73): (vlog-2730) Undefined variable: 'PASS_CNT'.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(77): (vlog-2730) Undefined variable: 'VECT_CNT'.
+# ** Error: ** while parsing file included at ex5_pkg.sv(19)
+# ** at ex5_comparator.svh(78): (vlog-2730) Undefined variable: 'ERROR_CNT'.
+# ** Error: ** while parsing file included at ex5_pkg.sv(20)
+# ** at ex5_scoreboard.svh(7): Invalid type 'ex5_comparator'. Please check the type of the variable 'cmp'.
+# ** Error: ** while parsing file included at ex5_pkg.sv(20)
+# ** at ex5_scoreboard.svh(26): (vlog-2730) Undefined variable: 'cmp'.
+# ** Error: ** while parsing file included at ex5_pkg.sv(20)
+# ** at ex5_scoreboard.svh(26): (vlog-2164) Class or package 'ex5_comparator' not found.
+# ** Error: ** while parsing file included at ex5_pkg.sv(20)
+# ** at ex5_scoreboard.svh(26): (vlog-2730) Undefined variable: 'ex5_comparator'.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(20)
+# ** at ex5_scoreboard.svh(26): near "::": syntax error, unexpected ::, expecting ';'.
+# -- Compiling module top
+# ** Error: ex5_top.svh(3): (vlog-13006) Could not find the package (ex5_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+# End time: 15:18:38 on May 08,2015, Elapsed time: 0:00:01
+# Errors: 28, Warnings: 0
+# /soft/Mentor/Questa_10.4/questasim/linux/vlog failed.
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 15:19:04 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling module top
+# -- Importing package ex5_pkg
+# 
+# Top level modules:
+# 	top
+# End time: 15:19:05 on May 08,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim +UVM_TESTNAME=ex5_test -do "run -all" top
+# vsim 
+# Start time: 15:19:13 on May 08,2015
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.ex5_pkg(fast)
+# Loading work.top(fast)
+# Loading work.ex5_dut(fast)
+# Loading work.ex5_clock_driver(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.ex5_interface(fast)
+# Loading /soft/Mentor/Questa_10.4/questasim/uvm-1.1d/linux/uvm_dpi.so
+# run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.2
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test ex5_test...
+# UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+# ------------------------------------------------------------------
+# Name                       Type                        Size  Value
+# ------------------------------------------------------------------
+# uvm_test_top               ex5_test                    -     @464 
+#   m_env                    ex5_env                     -     @484 
+#     _driver                ex5_driver                  -     @492 
+#       rsp_port             uvm_analysis_port           -     @509 
+#       seq_item_port        uvm_seq_item_pull_port      -     @500 
+#     _sequencer             uvm_sequencer               -     @518 
+#       rsp_export           uvm_analysis_export         -     @526 
+#       seq_item_export      uvm_seq_item_pull_imp       -     @632 
+#       arbitration_queue    array                       0     -    
+#       lock_queue           array                       0     -    
+#       num_last_reqs        integral                    32    'd1  
+#       num_last_rsps        integral                    32    'd1  
+#     ex5_agent              ex5_agent                   -     @641 
+#       m_driver             ex5_driver                  -     @672 
+#         rsp_port           uvm_analysis_port           -     @689 
+#         seq_item_port      uvm_seq_item_pull_port      -     @680 
+#       m_monitor            ex5_monitor                 -     @664 
+#         ap                 uvm_analysis_port           -     @822 
+#       m_sequencer          uvm_sequencer               -     @698 
+#         rsp_export         uvm_analysis_export         -     @706 
+#         seq_item_export    uvm_seq_item_pull_imp       -     @812 
+#         arbitration_queue  array                       0     -    
+#         lock_queue         array                       0     -    
+#         num_last_reqs      integral                    32    'd1  
+#         num_last_rsps      integral                    32    'd1  
+#     ex5_analysis           ex5_analysis                -     @649 
+#       _export              uvm_analysis_export         -     @837 
+#       fifo                 uvm_tlm_analysis_fifo #(T)  -     @846 
+#         analysis_export    uvm_analysis_imp            -     @890 
+#         get_ap             uvm_analysis_port           -     @881 
+#         get_peek_export    uvm_get_peek_imp            -     @863 
+#         put_ap             uvm_analysis_port           -     @872 
+#         put_export         uvm_put_imp                 -     @854 
+# ------------------------------------------------------------------
+# 
+# DUT @ 0 data = '{x, x, x, x, x, x, x, x}
+# DUT @ 10 data = '{x, x, x, x, x, x, x, x}
+# ex5_analysis @ 10 transaction = " data[7] 	x result[7] 	x
+#  data[6] 	x result[6] 	x
+#  data[5] 	x result[5] 	x
+#  data[4] 	x result[4] 	x
+#  data[3] 	x result[3] 	x
+#  data[2] 	x result[2] 	x
+#  data[1] 	x result[1] 	x
+#  data[0] 	x result[0] 	x
+# "
+# ex5_driver @ 10 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 30 data = '{1, 0, 0, 1, 0, 0, 0, 1}
+# ex5_analysis @ 30 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 30 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 50 data = '{0, 1, 1, 1, 1, 0, 0, 1}
+# ex5_analysis @ 50 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 50 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 70 data = '{1, 0, 1, 1, 1, 1, 0, 1}
+# ex5_analysis @ 70 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 70 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 90 data = '{0, 0, 1, 1, 1, 1, 0, 1}
+# ex5_analysis @ 90 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 90 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# DUT @ 110 data = '{0, 0, 1, 0, 1, 1, 0, 0}
+# ex5_analysis @ 110 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# ex5_driver @ 110 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# DUT @ 130 data = '{0, 0, 1, 0, 0, 0, 1, 0}
+# ex5_analysis @ 130 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# ex5_driver @ 130 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 150 data = '{0, 0, 0, 0, 0, 0, 0, 1}
+# ex5_analysis @ 150 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 150 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 170 data = '{1, 0, 0, 0, 1, 1, 1, 1}
+# ex5_analysis @ 170 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 170 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# DUT @ 190 data = '{1, 1, 1, 1, 0, 0, 0, 0}
+# ex5_analysis @ 190 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# ex5_driver @ 190 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 190: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    5
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [UVMTOP]     1
+# ** Note: $finish    : /soft/Mentor/Questa_10.4/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 190 ns  Iteration: 67  Instance: /top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at /soft/Mentor/Questa_10.4/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+quit -sim
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 15:32:33 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Error: ** while parsing file included at ex5_pkg.sv(16)
+# ** at ex5_env.svh(8): Invalid type 'ex5_scoreboard'. Please check the type of the variable 'sb'.
+# ** Error: ** while parsing file included at ex5_pkg.sv(16)
+# ** at ex5_env.svh(22): (vlog-2730) Undefined variable: 'sb'.
+# ** Error: ** while parsing file included at ex5_pkg.sv(16)
+# ** at ex5_env.svh(22): (vlog-2164) Class or package 'ex5_scoreboard' not found.
+# ** Error: ** while parsing file included at ex5_pkg.sv(16)
+# ** at ex5_env.svh(22): (vlog-2730) Undefined variable: 'ex5_scoreboard'.
+# ** Error: (vlog-13069) ** while parsing file included at ex5_pkg.sv(16)
+# ** at ex5_env.svh(22): near "::": syntax error, unexpected ::, expecting ';'.
+# -- Compiling module top
+# -- Importing package ex5_pkg
+# End time: 15:32:34 on May 08,2015, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 0
+# /soft/Mentor/Questa_10.4/questasim/linux/vlog failed.
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 15:33:07 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling module top
+# -- Importing package ex5_pkg
+# 
+# Top level modules:
+# 	top
+# End time: 15:33:08 on May 08,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim +UVM_TESTNAME=ex5_test -do "run -all" top
+# vsim 
+# Start time: 15:33:11 on May 08,2015
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.ex5_pkg(fast)
+# Loading work.top(fast)
+# Loading work.ex5_dut(fast)
+# Loading work.ex5_clock_driver(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.ex5_interface(fast)
+# Loading /soft/Mentor/Questa_10.4/questasim/uvm-1.1d/linux/uvm_dpi.so
+# run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.2
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test ex5_test...
+# UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+# ------------------------------------------------------------------
+# Name                       Type                        Size  Value
+# ------------------------------------------------------------------
+# uvm_test_top               ex5_test                    -     @464 
+#   m_env                    ex5_env                     -     @484 
+#     _driver                ex5_driver                  -     @492 
+#       rsp_port             uvm_analysis_port           -     @509 
+#       seq_item_port        uvm_seq_item_pull_port      -     @500 
+#     _sequencer             uvm_sequencer               -     @518 
+#       rsp_export           uvm_analysis_export         -     @526 
+#       seq_item_export      uvm_seq_item_pull_imp       -     @632 
+#       arbitration_queue    array                       0     -    
+#       lock_queue           array                       0     -    
+#       num_last_reqs        integral                    32    'd1  
+#       num_last_rsps        integral                    32    'd1  
+#     ex5_agent              ex5_agent                   -     @641 
+#       m_driver             ex5_driver                  -     @680 
+#         rsp_port           uvm_analysis_port           -     @697 
+#         seq_item_port      uvm_seq_item_pull_port      -     @688 
+#       m_monitor            ex5_monitor                 -     @672 
+#         ap                 uvm_analysis_port           -     @830 
+#       m_sequencer          uvm_sequencer               -     @706 
+#         rsp_export         uvm_analysis_export         -     @714 
+#         seq_item_export    uvm_seq_item_pull_imp       -     @820 
+#         arbitration_queue  array                       0     -    
+#         lock_queue         array                       0     -    
+#         num_last_reqs      integral                    32    'd1  
+#         num_last_rsps      integral                    32    'd1  
+#     ex5_analysis           ex5_analysis                -     @649 
+#       _export              uvm_analysis_export         -     @845 
+#       fifo                 uvm_tlm_analysis_fifo #(T)  -     @854 
+#         analysis_export    uvm_analysis_imp            -     @898 
+#         get_ap             uvm_analysis_port           -     @889 
+#         get_peek_export    uvm_get_peek_imp            -     @871 
+#         put_ap             uvm_analysis_port           -     @880 
+#         put_export         uvm_put_imp                 -     @862 
+#     sb                     ex5_scoreboard              -     @657 
+#       axp_in               uvm_analysis_export         -     @907 
+#       axp_out              uvm_analysis_export         -     @916 
+#       cmp                  ex5_comparator              -     @942 
+#         axp_in             uvm_analysis_export         -     @950 
+#         axp_out            uvm_analysis_export         -     @959 
+#         expfifo            uvm_tlm_analysis_fifo #(T)  -     @968 
+#           analysis_export  uvm_analysis_imp            -     @1012
+#           get_ap           uvm_analysis_port           -     @1003
+#           get_peek_export  uvm_get_peek_imp            -     @985 
+#           put_ap           uvm_analysis_port           -     @994 
+#           put_export       uvm_put_imp                 -     @976 
+#         outfifo            uvm_tlm_analysis_fifo #(T)  -     @1021
+#           analysis_export  uvm_analysis_imp            -     @1065
+#           get_ap           uvm_analysis_port           -     @1056
+#           get_peek_export  uvm_get_peek_imp            -     @1038
+#           put_ap           uvm_analysis_port           -     @1047
+#           put_export       uvm_put_imp                 -     @1029
+#       prd                  ex5_predictor               -     @925 
+#         analysis_imp       uvm_analysis_imp            -     @933 
+#         results_ap         uvm_analysis_port           -     @1074
+# ------------------------------------------------------------------
+# 
+# DUT @ 0 data = '{x, x, x, x, x, x, x, x}
+# DUT @ 10 data = '{x, x, x, x, x, x, x, x}
+# REQ Coverage: covered = 1, total = 2 ( 3.00%)
+# ex5_analysis @ 10 transaction = " data[7] 	x result[7] 	x
+#  data[6] 	x result[6] 	x
+#  data[5] 	x result[5] 	x
+#  data[4] 	x result[4] 	x
+#  data[3] 	x result[3] 	x
+#  data[2] 	x result[2] 	x
+#  data[1] 	x result[1] 	x
+#  data[0] 	x result[0] 	x
+# "
+# ex5_driver @ 10 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 30 data = '{1, 0, 0, 1, 0, 0, 0, 1}
+# REQ Coverage: covered = 1, total = 2 ( 3.00%)
+# ex5_analysis @ 30 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 30 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 50 data = '{0, 1, 1, 1, 1, 0, 0, 1}
+# REQ Coverage: covered = 1, total = 2 ( 3.00%)
+# ex5_analysis @ 50 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 50 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 70 data = '{1, 0, 1, 1, 1, 1, 0, 1}
+# REQ Coverage: covered = 1, total = 2 ( 3.00%)
+# ex5_analysis @ 70 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 70 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 90 data = '{0, 0, 1, 1, 1, 1, 0, 1}
+# REQ Coverage: covered = 1, total = 2 ( 3.00%)
+# ex5_analysis @ 90 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 90 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# DUT @ 110 data = '{0, 0, 1, 0, 1, 1, 0, 0}
+# REQ Coverage: covered = 1, total = 2 ( 3.00%)
+# ex5_analysis @ 110 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# ex5_driver @ 110 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# DUT @ 130 data = '{0, 0, 1, 0, 0, 0, 1, 0}
+# REQ Coverage: covered = 1, total = 2 ( 3.00%)
+# ex5_analysis @ 130 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# ex5_driver @ 130 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 150 data = '{0, 0, 0, 0, 0, 0, 0, 1}
+# REQ Coverage: covered = 1, total = 2 ( 3.00%)
+# ex5_analysis @ 150 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 150 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 170 data = '{1, 0, 0, 0, 1, 1, 1, 1}
+# REQ Coverage: covered = 1, total = 2 ( 3.00%)
+# ex5_analysis @ 170 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 170 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# DUT @ 190 data = '{1, 1, 1, 1, 0, 0, 0, 0}
+# REQ Coverage: covered = 1, total = 2 ( 3.00%)
+# ex5_analysis @ 190 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# ex5_driver @ 190 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 190: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO ex5_comparator.svh(68) @ 190: uvm_test_top.m_env.sb.cmp [ex5_comparator] 
+# 
+# 
+# *** TEST FAILED - 0 vectors ran, 0 vectors passed, 0 vectors failed ***
+# 
+# ** Warning: (vsim-8519) Covergroup 'get_coverage()' builtin was called improperly. (builtin called with no instances of the covergroup type.)
+#    Time: 190 ns  Iteration: 49  Region: /uvm_pkg::uvm_phase::m_run_phases
+# REQ Coverage: covered = 0, total = 0 ( 0.00%)
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    6
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [UVMTOP]     1
+# [ex5_comparator]     1
+# ** Note: $finish    : /soft/Mentor/Questa_10.4/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 190 ns  Iteration: 67  Instance: /top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at /soft/Mentor/Questa_10.4/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+quit -sim
+vlog -f compile_questa_sv.f
+# QuestaSim vlog 10.4 Compiler 2014.12 Dec  2 2014
+# Start time: 15:41:29 on May 08,2015
+# vlog -reportprogress 300 -f compile_questa_sv.f 
+# -- Compiling module ex5_dut
+# -- Compiling module ex5_clock_driver
+# -- Compiling interface ex5_interface
+# -- Compiling package ex5_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+/soft/Mentor/Questa_10.4/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling module top
+# -- Importing package ex5_pkg
+# 
+# Top level modules:
+# 	top
+# End time: 15:41:30 on May 08,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim +UVM_TESTNAME=ex5_test -do "run -all" top
+# vsim 
+# Start time: 15:41:32 on May 08,2015
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.ex5_pkg(fast)
+# Loading work.top(fast)
+# Loading work.ex5_dut(fast)
+# Loading work.ex5_clock_driver(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.ex5_interface(fast)
+# Loading /soft/Mentor/Questa_10.4/questasim/uvm-1.1d/linux/uvm_dpi.so
+# run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.2
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test ex5_test...
+# UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+# ------------------------------------------------------------------
+# Name                       Type                        Size  Value
+# ------------------------------------------------------------------
+# uvm_test_top               ex5_test                    -     @464 
+#   m_env                    ex5_env                     -     @484 
+#     _driver                ex5_driver                  -     @492 
+#       rsp_port             uvm_analysis_port           -     @509 
+#       seq_item_port        uvm_seq_item_pull_port      -     @500 
+#     _sequencer             uvm_sequencer               -     @518 
+#       rsp_export           uvm_analysis_export         -     @526 
+#       seq_item_export      uvm_seq_item_pull_imp       -     @632 
+#       arbitration_queue    array                       0     -    
+#       lock_queue           array                       0     -    
+#       num_last_reqs        integral                    32    'd1  
+#       num_last_rsps        integral                    32    'd1  
+#     ex5_agent              ex5_agent                   -     @641 
+#       m_driver             ex5_driver                  -     @680 
+#         rsp_port           uvm_analysis_port           -     @697 
+#         seq_item_port      uvm_seq_item_pull_port      -     @688 
+#       m_monitor            ex5_monitor                 -     @672 
+#         ap                 uvm_analysis_port           -     @830 
+#       m_sequencer          uvm_sequencer               -     @706 
+#         rsp_export         uvm_analysis_export         -     @714 
+#         seq_item_export    uvm_seq_item_pull_imp       -     @820 
+#         arbitration_queue  array                       0     -    
+#         lock_queue         array                       0     -    
+#         num_last_reqs      integral                    32    'd1  
+#         num_last_rsps      integral                    32    'd1  
+#     ex5_analysis           ex5_analysis                -     @649 
+#       _export              uvm_analysis_export         -     @845 
+#       fifo                 uvm_tlm_analysis_fifo #(T)  -     @854 
+#         analysis_export    uvm_analysis_imp            -     @898 
+#         get_ap             uvm_analysis_port           -     @889 
+#         get_peek_export    uvm_get_peek_imp            -     @871 
+#         put_ap             uvm_analysis_port           -     @880 
+#         put_export         uvm_put_imp                 -     @862 
+#     sb                     ex5_scoreboard              -     @657 
+#       axp_in               uvm_analysis_export         -     @907 
+#       axp_out              uvm_analysis_export         -     @916 
+#       cmp                  ex5_comparator              -     @942 
+#         axp_in             uvm_analysis_export         -     @950 
+#         axp_out            uvm_analysis_export         -     @959 
+#         expfifo            uvm_tlm_analysis_fifo #(T)  -     @968 
+#           analysis_export  uvm_analysis_imp            -     @1012
+#           get_ap           uvm_analysis_port           -     @1003
+#           get_peek_export  uvm_get_peek_imp            -     @985 
+#           put_ap           uvm_analysis_port           -     @994 
+#           put_export       uvm_put_imp                 -     @976 
+#         outfifo            uvm_tlm_analysis_fifo #(T)  -     @1021
+#           analysis_export  uvm_analysis_imp            -     @1065
+#           get_ap           uvm_analysis_port           -     @1056
+#           get_peek_export  uvm_get_peek_imp            -     @1038
+#           put_ap           uvm_analysis_port           -     @1047
+#           put_export       uvm_put_imp                 -     @1029
+#       prd                  ex5_predictor               -     @925 
+#         analysis_imp       uvm_analysis_imp            -     @933 
+#         results_ap         uvm_analysis_port           -     @1074
+# ------------------------------------------------------------------
+# 
+# DUT @ 0 data = '{x, x, x, x, x, x, x, x}
+# DUT @ 10 data = '{x, x, x, x, x, x, x, x}
+# ex5_analysis @ 10 transaction = " data[7] 	x result[7] 	x
+#  data[6] 	x result[6] 	x
+#  data[5] 	x result[5] 	x
+#  data[4] 	x result[4] 	x
+#  data[3] 	x result[3] 	x
+#  data[2] 	x result[2] 	x
+#  data[1] 	x result[1] 	x
+#  data[0] 	x result[0] 	x
+# "
+# ex5_driver @ 10 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 30 data = '{1, 0, 0, 1, 0, 0, 0, 1}
+# ex5_analysis @ 30 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 30 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 50 data = '{0, 1, 1, 1, 1, 0, 0, 1}
+# ex5_analysis @ 50 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 50 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 70 data = '{1, 0, 1, 1, 1, 1, 0, 1}
+# ex5_analysis @ 70 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 70 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 90 data = '{0, 0, 1, 1, 1, 1, 0, 1}
+# ex5_analysis @ 90 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 90 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# DUT @ 110 data = '{0, 0, 1, 0, 1, 1, 0, 0}
+# ex5_analysis @ 110 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# ex5_driver @ 110 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# DUT @ 130 data = '{0, 0, 1, 0, 0, 0, 1, 0}
+# ex5_analysis @ 130 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# ex5_driver @ 130 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 150 data = '{0, 0, 0, 0, 0, 0, 0, 1}
+# ex5_analysis @ 150 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 150 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# DUT @ 170 data = '{1, 0, 0, 0, 1, 1, 1, 1}
+# ex5_analysis @ 170 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	0 result[6] 	x
+#  data[5] 	0 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	1 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# ex5_driver @ 170 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# DUT @ 190 data = '{1, 1, 1, 1, 0, 0, 0, 0}
+# ex5_analysis @ 190 transaction = " data[7] 	1 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	1 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	0 result[2] 	x
+#  data[1] 	0 result[1] 	x
+#  data[0] 	0 result[0] 	x
+# "
+# ex5_driver @ 190 transaction = " data[7] 	0 result[7] 	x
+#  data[6] 	1 result[6] 	x
+#  data[5] 	1 result[5] 	x
+#  data[4] 	0 result[4] 	x
+#  data[3] 	0 result[3] 	x
+#  data[2] 	1 result[2] 	x
+#  data[1] 	1 result[1] 	x
+#  data[0] 	1 result[0] 	x
+# "
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 190: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO ex5_comparator.svh(68) @ 190: uvm_test_top.m_env.sb.cmp [ex5_comparator] 
+# 
+# 
+# *** TEST FAILED - 0 vectors ran, 0 vectors passed, 0 vectors failed ***
+# 
+# ** Warning: (vsim-8519) Covergroup 'get_coverage()' builtin was called improperly. (builtin called with no instances of the covergroup type.)
+#    Time: 190 ns  Iteration: 49  Region: /ex5_pkg::ex5_predictor::report_phase
+# Instance coverage is 0.000000e+00
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    6
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [UVMTOP]     1
+# [ex5_comparator]     1
+# ** Note: $finish    : /soft/Mentor/Questa_10.4/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 190 ns  Iteration: 67  Instance: /top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at /soft/Mentor/Questa_10.4/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+quit -sim

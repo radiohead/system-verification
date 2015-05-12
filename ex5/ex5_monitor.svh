@@ -30,6 +30,8 @@ class ex5_monitor extends uvm_monitor;
 
     forever @(posedge m_vif.clock) begin
        item.data = m_vif.data;
+       item.result = m_vif.result;
+       $display("ex5_monitor: %p", $time, item.convert2string());
        ap.write(item);
     end
   endtask: run_phase

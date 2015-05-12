@@ -28,14 +28,14 @@ class ex5_transaction extends uvm_sequence_item;
 
   function string output2string();
     string s;
-    s = $sformat("result=%4h", result);
+    s = $sformatf("result=%p", result);
     return s;
   endfunction
 
-  function uvm_object clone();
-    ex5_transaction tmp = new this;
-    return(tmp);
-  endfunction
+//  function uvm_object clone();
+//    ex5_transaction tmp = new this;
+//    return(tmp);
+//  endfunction
 
   function bit do_compare(uvm_object rhs, uvm_comparer comparer);
     ex5_transaction tmp;

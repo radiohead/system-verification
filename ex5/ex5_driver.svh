@@ -7,9 +7,12 @@ class ex5_driver extends uvm_driver #(ex5_transaction);
   ex5_config m_config;
   // Number of iterations
   int _iterations;
+  uvm_analysis_port #(ex5_transaction) ap;
 
   function new(string name, uvm_component parent);
     super.new(name, parent);
+
+    ap = new("ap", this);
   endfunction: new
 
   function void build_phase(uvm_phase phase);
@@ -25,23 +28,17 @@ class ex5_driver extends uvm_driver #(ex5_transaction);
   endfunction: connect_phase
 
   task run_phase(uvm_phase phase);
-    ex5_transaction req_item;
-    repeat(_iterations)
-    begin
-     @(posedge _interface.clock)
-      if(!_interface.reset) begin
-        seq_item_port.try_next_item(req_item);
+    ex5_transaction req_item, req_item_clone;
 
-        if (req_item == null) //send idle pattern
-          _interface.data <= "00000000";
-        else begin//send next sequence item
-          $display("ex5_driver @ %0t transaction = %p", $time, req_item.convert2string());
-          _interface.data <= req_item.data;
-          seq_item_port.item_done();
-        end
+    repeat(_iterations) begin @(posedge _interface.clock)
+      if (!_interface.reset) begin
+        seq_item_port.get_next_item(req_item);
+        // Send next sequence item
+        $display("ex5_driver: %p", $time, req_item.convert2string());
+        _interface.data <= req_item.data;
+        ap.write(req_item);
+        seq_item_port.item_done();
       end
-      else _interface.reset <= 1; //reset dut
-
     end
   endtask: run_phase
 endclass: ex5_driver

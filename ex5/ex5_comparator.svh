@@ -19,7 +19,7 @@ class ex5_comparator extends uvm_component;
     outfifo = new("outfifo", this);
   endfunction
 
-  function connect_phase(uvm_phase phase);
+  function void connect_phase(uvm_phase phase);
     super.connect_phase(phase);
 
     axp_in.connect(expfifo.analysis_export);
@@ -38,15 +38,15 @@ class ex5_comparator extends uvm_component;
 
       if (out_tr.compare(exp_tr)) begin
         PASS();
-        `uvm_onfo ("PASS ", $sformatf("Actual=%s    Expected=%s \n",
+        `uvm_info ("PASS ", $sformatf("Actual=%s    Expected=%s \n",
                     out_tr.output2string(),
                     exp_tr.convert2string()), UVM_HIGH)
       end
       else begin
         ERROR();
-        `uvm_onfo ("ERROR ", $sformatf("Actual=%s    Expected=%s \n",
+        `uvm_info ("ERROR ", $sformatf("Actual=%s    Expected=%s \n",
                     out_tr.output2string(),
-                    exp_tr.convert2string()))
+                    exp_tr.convert2string()), UVM_HIGH)
       end
     end
   endtask
