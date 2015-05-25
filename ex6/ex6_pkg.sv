@@ -13,6 +13,10 @@ package ex6_pkg;
   `include "ex6_monitor.svh"
   `include "ex6_agent.svh"
   `include "ex6_analysis.svh"
+  `include "ex6_predictor.svh"
+  `include "ex6_comparator.svh"
+  `include "ex6_scoreboard.svh"
   `include "ex6_env.svh"
   `include "ex6_test.svh"
+
 endpackage: ex6_pkg

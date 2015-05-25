@@ -32,7 +32,7 @@ class ex6_test extends uvm_test;
   function void build_phase(uvm_phase phase);
     super.build_phase(phase);
     set_config_params();
-    set_report_verbosity_level_hier(UVM_MEDIUM);
+    // set_report_verbosity_level_hier(UVM_MEDIUM);
     m_env = ex6_env::type_id::create("m_env", this);
   endfunction: build_phase
 

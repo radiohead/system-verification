@@ -7,9 +7,12 @@ class ex6_driver extends uvm_driver #(ex6_transaction);
   ex6_config m_config;
   // Number of iterations
   int _iterations;
+  uvm_analysis_port #(ex6_transaction) ap;
 
   function new(string name, uvm_component parent);
     super.new(name, parent);
+
+    ap = new("ap", this);
   endfunction: new
 
   function void build_phase(uvm_phase phase);
@@ -25,27 +28,19 @@ class ex6_driver extends uvm_driver #(ex6_transaction);
   endfunction: connect_phase
 
   task run_phase(uvm_phase phase);
-    ex6_transaction req_item;
-    repeat(_iterations)
-    begin
-     @(posedge _interface.clock)
-      if(!_interface.reset) begin
-        seq_item_port.try_next_item(req_item);
+    ex6_transaction req_item, req_item_clone;
 
-        if (req_item == null) //send idle pattern
-          _interface.value1 <= 0;
-          _interface.value2 <= 0;
-          _interface.mode <= ADD;
-        else begin//send next sequence item
-          $display("ex6_driver @ %0t transaction = %p", $time, req_item.convert2string());
-          _interface.value1 <= req_item.value1;
-          _interface.value2 <= req_item.value2;
-          _interface.mode <= req_item.mode;
-          seq_item_port.item_done();
-        end
+    repeat(_iterations) begin @(posedge _interface.clock)
+      if (!_interface.reset) begin
+        seq_item_port.get_next_item(req_item);
+        // Send next sequence item
+        _interface.value1 = req_item.value1;
+        _interface.value2 = req_item.value2;
+        _interface.mode = req_item.mode;
+        ap.write(req_item);
+        seq_item_port.item_done();
       end
-      else _interface.reset <= 1; //reset dut
-
     end
   endtask: run_phase
 endclass: ex6_driver
+
