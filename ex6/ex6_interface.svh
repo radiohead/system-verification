@@ -2,7 +2,7 @@ interface ex6_interface;
   logic clock;
   logic reset;
 
-  int unsigned value1, value2, result;
+  int unsigned value1, value2, result, correct;
   typedef enum {ADD, SUB, MUL, DIV} op_type;
   rand op_type mode;
 
@@ -11,7 +11,8 @@ interface ex6_interface;
     input reset,
     input value1,
     input value2,
-    output result
+    output result,
+    output correct
   );
 
   modport clock_driver_mp(

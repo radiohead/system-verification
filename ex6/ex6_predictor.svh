@@ -41,11 +41,17 @@ class ex6_predictor extends uvm_subscriber #(ex6_transaction);
   function void write (ex6_transaction t);
     $cast(out_txn, t.clone());
 
+    out_txn.correct = 1;
     switch (t.mode)
       ADD: out_txn.result = t.value1 + t.value2;
       SUB: out_txn.result = t.value1 - t.value2;
       MUL: out_txn.result = t.value1 * t.value2;
-      DIV: out_txn.result = t.value1 / t.value2;
+      DIV: if (t.value2 == 0) begin
+          out_txn.correct = 0;
+          out_txn.result = 0;
+        end
+        else
+          out_txn.result = t.value1 / t.value2;
 
     results_ap.write(out_txn);
   endfunction

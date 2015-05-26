@@ -5,6 +5,9 @@ class ex6_transaction extends uvm_sequence_item;
   typedef enum {ADD, SUB, MUL, DIV} op_type;
   rand op_type mode;
 
+  int result;
+  int correct;
+
   ///declaration macros
   `uvm_object_utils_begin(ex6_transaction)
     `uvm_field_int(value1, UVM_ALL_ON)
@@ -25,6 +28,8 @@ class ex6_transaction extends uvm_sequence_item;
    s = super.convert2string();
    $sformat(s, "%s value1 \t%0h\n", s, value1);
    $sformat(s, "%s value2 \t%0h\n", s, value2);
+   $sformat(s, "%s result \t%0h\n", s, result);
+   $sformat(s, "%s correct \t%0h\n", s, correct);
    return s;
   endfunction: convert2string
 
@@ -40,7 +45,8 @@ class ex6_transaction extends uvm_sequence_item;
     return (value1   == tmp.value1 &&
             value2   == tmp.value2 &&
             mode     == tmp.mode &&
-            result   == tmp.result);
+            result   == tmp.result
+            correct  == tmp.correct);
   endfunction
 
   function void do_copy(uvm_object rhs);
@@ -50,7 +56,8 @@ class ex6_transaction extends uvm_sequence_item;
     super.do_copy(tmp);
     value1   = tmp.value1;
     value2   = tmp.value2;
-    mode   = tmp.mode;
-    result = tmp.result;
+    mode     = tmp.mode;
+    result   = tmp.result;
+    correct  = tmp.correct;
   endfunction
 endclass: ex6_transaction
