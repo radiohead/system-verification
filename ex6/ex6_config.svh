@@ -4,7 +4,8 @@ class ex6_config extends uvm_object;
   // virtual interface for driver, monitor, ...
   virtual ex6_interface vif;
 
-  int iterations;
+  int iterations = 2;
+  string test_name = "test";
 
   function new(string name = "");
     super.new(name);

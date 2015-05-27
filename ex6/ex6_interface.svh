@@ -1,16 +1,19 @@
 interface ex6_interface;
+  import types_pkg::*;
+
   logic clock;
   logic reset;
 
-  int unsigned value1, value2, result, correct;
-  typedef enum {ADD, SUB, MUL, DIV} op_type;
-  rand op_type mode;
+  shortint unsigned value1, value2, correct;
+  int unsigned result;
+  op_type mode;
 
   modport dut_mp(
     input clock,
     input reset,
     input value1,
     input value2,
+    input mode,
     output result,
     output correct
   );

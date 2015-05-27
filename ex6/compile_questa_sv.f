@@ -1,3 +1,4 @@
+types_pkg.sv
 ex6_dut.svh
 ex6_clock_driver.svh
 ex6_interface.svh

@@ -1,6 +1,6 @@
-class ex6_test extends uvm_test;
+class ex6_test_zero extends uvm_test;
   // declaration macros
-  `uvm_component_utils(ex6_test)
+  `uvm_component_utils(ex6_test_zero)
   // internal components
   ex6_env m_env;
   // configuration database
@@ -22,7 +22,7 @@ class ex6_test extends uvm_test;
     if(!uvm_config_db #(virtual ex6_interface)::get(this, "uvm_test_top", "top_interface", _agent_config.vif))
       `uvm_fatal("ex5 TEST", "Can't read VIF");
 
-    m_config.iterations = 16;
+    m_config.test_name = "test_zero";
     _agent_config.active = UVM_ACTIVE;
 
     uvm_config_db #(ex6_config)::set(uvm_root::get(), "*", "ex6_config", m_config);

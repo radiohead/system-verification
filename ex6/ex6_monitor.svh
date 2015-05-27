@@ -31,6 +31,8 @@ class ex6_monitor extends uvm_monitor;
     forever @(posedge m_vif.clock) begin
        item.value1 = m_vif.value1;
        item.value2 = m_vif.value2;
+       item.result = m_vif.result;
+       item.correct = m_vif.correct;
        item.mode = m_vif.mode;
        ap.write(item);
     end

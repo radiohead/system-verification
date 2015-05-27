@@ -5,20 +5,18 @@ class ex6_predictor extends uvm_subscriber #(ex6_transaction);
   uvm_analysis_port #(ex6_transaction) results_ap;
 
   covergroup transaction_coverage;
-    // God praise idiots -_-
-    d1: coverpoint out_txn.data[0];
     cov_value1: coverpoint out_txn.value1 {
       bins zero = {0};
       bins f1to10 = {[1:9]};
       bins f10to100 = {[10:100]};
       bins rest = default;
-    };
+    }
     cov_value2: coverpoint out_txn.value2 {
       bins zero = {0};
       bins f1to10 = {[1:9]};
       bins f10to100 = {[10:100]};
       bins rest = default;
-    };
+    }
     mode_value: coverpoint out_txn.mode {
       bins add = {ADD};
       bins sub = {SUB};
@@ -42,9 +40,15 @@ class ex6_predictor extends uvm_subscriber #(ex6_transaction);
     $cast(out_txn, t.clone());
 
     out_txn.correct = 1;
-    switch (t.mode)
+    case (t.mode)
       ADD: out_txn.result = t.value1 + t.value2;
-      SUB: out_txn.result = t.value1 - t.value2;
+      SUB: begin
+	if (t.value2 > t.value1) begin
+	  out_txn.correct = 0;
+	end
+ 	out_txn.result = t.value1 - t.value2;
+      end
+
       MUL: out_txn.result = t.value1 * t.value2;
       DIV: if (t.value2 == 0) begin
           out_txn.correct = 0;
@@ -52,7 +56,9 @@ class ex6_predictor extends uvm_subscriber #(ex6_transaction);
         end
         else
           out_txn.result = t.value1 / t.value2;
+    endcase
 
+    transaction_coverage.sample();
     results_ap.write(out_txn);
   endfunction
 

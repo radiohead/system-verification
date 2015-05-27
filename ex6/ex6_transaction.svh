@@ -1,11 +1,20 @@
 class ex6_transaction extends uvm_sequence_item;
   //declarations
-  rand int value1;
-  rand int value2;
-  typedef enum {ADD, SUB, MUL, DIV} op_type;
+  rand shortint unsigned value1;
+  rand shortint unsigned value2;
   rand op_type mode;
 
-  int result;
+  constraint value1_range {
+    value1 < 100;
+    value1 >= 0;
+  }
+
+  constraint value2_range {
+    value2 < 100;
+    value2 >= 0;
+  }
+
+  shortint unsigned result;
   int correct;
 
   ///declaration macros
@@ -45,7 +54,7 @@ class ex6_transaction extends uvm_sequence_item;
     return (value1   == tmp.value1 &&
             value2   == tmp.value2 &&
             mode     == tmp.mode &&
-            result   == tmp.result
+            result   == tmp.result &&
             correct  == tmp.correct);
   endfunction
 

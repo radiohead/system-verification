@@ -1,6 +1,6 @@
-class ex6_test extends uvm_test;
+class ex6_test_lt_zero extends uvm_test;
   // declaration macros
-  `uvm_component_utils(ex6_test)
+  `uvm_component_utils(ex6_test_lt_zero)
   // internal components
   ex6_env m_env;
   // configuration database
@@ -8,7 +8,7 @@ class ex6_test extends uvm_test;
   ex6_sequence _sequence;
   ex6_agent_config _agent_config;
 
-  function new(string name = "ex6_test", uvm_component parent = null);
+  function new(string name = "ex6_test_lt_zero", uvm_component parent = null);
     super.new(name, parent);
   endfunction
 
@@ -22,7 +22,7 @@ class ex6_test extends uvm_test;
     if(!uvm_config_db #(virtual ex6_interface)::get(this, "uvm_test_top", "top_interface", _agent_config.vif))
       `uvm_fatal("ex5 TEST", "Can't read VIF");
 
-    m_config.iterations = 16;
+    m_config.test_name = "test_lt_zero";
     _agent_config.active = UVM_ACTIVE;
 
     uvm_config_db #(ex6_config)::set(uvm_root::get(), "*", "ex6_config", m_config);
